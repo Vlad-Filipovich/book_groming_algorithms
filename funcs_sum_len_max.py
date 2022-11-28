@@ -18,7 +18,7 @@ def maximum(arr):
     return arr [0] if arr[0] > sub_maximum else sub_maximum
 
 
-my_list = [1]
+my_list = [1, 2, 7, 78, 41, 77, 78, 11, 2, 15, 1]
 print(f'Summa = {summa(my_list)}')
 print(f'Lenght = {lenght(my_list)}')
 print(f'Max elem = {maximum(my_list)}')
