@@ -2,7 +2,7 @@ from collections import deque
 
 
 def person_is_seller(person):
-    return 'man' in person
+    return 'm' in person
 
 
 def mango_seller_search(graph):
@@ -16,7 +16,7 @@ def mango_seller_search(graph):
         if person not in verified:
 
             if person_is_seller(person):
-                return f'{person} is a mango seller!'
+                return f'{person.capitalize()} is a mango seller!'
 
             else:
                 verified.append(person)
